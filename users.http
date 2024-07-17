@@ -1,0 +1,28 @@
+### Get list of users
+GET http://localhost:8080/api/v1/users?page=2
+Content-Type: application/json
+
+#### Get single user by ID
+#GET http://localhost:8080/api/v1/users/2
+#Content-Type: application/json
+
+### Create a new user
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "job": "example"
+}
+
+### Update an existing user
+PUT http://localhost:8080/api/v1/users/2
+Content-Type: application/json
+
+{
+  "name" : "John",
+  "job": "example"
+}
+
+### Delete a user
+DELETE http://localhost:8080/api/v1/users/2

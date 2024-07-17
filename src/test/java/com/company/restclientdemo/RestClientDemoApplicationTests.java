@@ -1,4 +1,4 @@
-package com.company.rest_client_demo;
+package com.company.restclientdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

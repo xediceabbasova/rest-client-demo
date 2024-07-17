@@ -1,4 +1,4 @@
-package com.company.rest_client_demo;
+package com.company.restclientdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
